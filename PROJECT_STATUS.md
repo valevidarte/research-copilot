@@ -63,7 +63,6 @@
 research-copilot/
 ├── 📄 README.md (MAIN DOCUMENTATION - 72 KB)
 ├── 📄 QUICKSTART.md (Setup in 5 steps)
-├── 📄 PAPER_COLLECTION_GUIDE.md (How to find papers)
 ├── 📄 requirements.txt (Python dependencies)
 ├── 📄 .env.example (API key template)
 ├── 📄 .gitignore (Git configuration)
