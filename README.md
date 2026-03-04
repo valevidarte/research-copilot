@@ -5,39 +5,6 @@
 
 Research Copilot is an AI research assistant that helps you explore a curated collection of academic papers about memory, transitional justice, and human rights in Peru. It uses a Retrieval-Augmented Generation (RAG) pipeline (PDF ingestion → chunking → OpenAI embeddings → vector search → response generation) and a Streamlit web UI for interactive querying and citation-aware answers.
 
-Quick Start
------------
-- Clone the repo, create a virtual environment and install dependencies:
-
-```bash
-git clone https://github.com/valevidarte/research-copilot.git
-cd research-copilot
-python -m venv .venv
-.venv\Scripts\activate    # Windows PowerShell
-pip install -r requirements.txt
-```
-
-- Configure your OpenAI API key (create `.env` or set `OPENAI_API_KEY` env var):
-
-```bash
-copy .env.example .env
-# edit .env and add OPENAI_API_KEY=sk-...
-```
-
-- Ingest papers (after placing PDFs in `papers/` and updating `papers/paper_catalog.json`):
-
-```bash
-python src/ingest.py
-```
-
-- Run the Streamlit app:
-
-```bash
-.venv\Scripts\python -m streamlit run app/main.py
-```
-
-Visit: http://localhost:8501
-
 ---
 
 ## Features
