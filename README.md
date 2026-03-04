@@ -464,13 +464,10 @@ research-copilot/
 **Project:** Research Copilot - Academic Paper Assistant  
 **Topic:** Memory and Human Rights in Peru  
 **Course:** Prompt Engineering and Advanced Language Model Applications  
-**University:** [University Name]  
+**University:** Pontificia Universidad Católica del Peru 
 **Date Completed:** March 3, 2026  
 
-**Author Contact:**  
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile]
-- Institution: [Your Institution]
+**Author:** Valeria Vidarte Echeverri 
 
 ---
 
@@ -496,25 +493,7 @@ research-copilot/
 - **black** - Code formatting
 - **loguru** - Logging
 - **python-dotenv** - Environment variable management
-
----
-
-## Contributing
-
-This is a course project. To extend or modify:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## License
-
-This project is not currently licensed. For academic use, please consult with the instructor.
-
+- 
 ---
 
 ## Acknowledgments
@@ -527,12 +506,7 @@ This project is not currently licensed. For academic use, please consult with th
 ---
 
 ## Support
-
-For issues, questions, or suggestions:
-
-1. Check the GitHub Issues page
-2. Review the troubleshooting section in the wiki
-3. Contact the project maintainer
+For the latest updates and to contribute, visit: [https://github.com/Enmanuel-HR/Research-Copilot-About-Political-Culture-](https://github.com/valevidarte/research-copilot) 
 
 ---
 
