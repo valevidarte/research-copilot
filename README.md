@@ -465,7 +465,6 @@ research-copilot/
 **Topic:** Memory and Human Rights in Peru  
 **Course:** Prompt Engineering and Advanced Language Model Applications  
 **University:** Pontificia Universidad Católica del Peru 
-**Date Completed:** March 3, 2026  
 
 **Author:** Valeria Vidarte Echeverri 
 
@@ -506,7 +505,7 @@ research-copilot/
 ---
 
 ## Support
-For the latest updates and to contribute, visit: [https://github.com/Enmanuel-HR/Research-Copilot-About-Political-Culture-](https://github.com/valevidarte/research-copilot) 
+For the latest updates and to contribute, visit: (https://github.com/valevidarte/research-copilot) 
 
 ---
 
