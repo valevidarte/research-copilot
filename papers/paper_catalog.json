@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "topic": "Memoria y derechos humanos en Perú",
+    "total_papers": 20,
+    "last_updated": "2026-03-04"
+  },
+  "papers": [
+    {
+      "id": "paper_001",
+      "title": "Desfigurando la memoria: (des)atando los nudos de la memoria peruana",
+      "authors": ["Cynthia E. Milton"],
+      "year": 2015,
+      "venue": "Anthropologica, Vol. 33, Núm. 34",
+      "doi": "https://doi.org/10.18800/anthropologica.201501.002",
+      "filename": "paper_001.pdf",
+      "topics": ["memoria colectiva", "violencia política", "sitios de memoria", "narrativa"],
+      "abstract": "El artículo analiza las corrientes opositoras a la memoria colectiva sobre el conflicto armado interno peruano (1980–2000) a través de los actos de vandalismo contra el memorial El Ojo que Llora en Lima. Interpreta el vandalismo como una forma de “escritura violenta” que expresa visiones alternativas del pasado."
+    },
+    {
+      "id": "paper_002",
+      "title": "¿Reparar lo irreparable? La dimensión simbólica de las reparaciones",
+      "authors": ["Iris Jave"],
+      "year": 2023,
+      "venue": "Capítulo en Legados de un pasado irresuelto (IDEHPUCP)",
+      "doi": "https://doi.org/10.18800/9786124474477.007",
+      "filename": "paper_002.pdf",
+      "topics": ["reparaciones simbólicas", "justicia transicional", "memoria histórica", "PIR"],
+      "abstract": "Analiza la dimensión simbólica de las reparaciones en el marco del Programa Integral de Reparación (PIR) y las dificultades de las víctimas para obtener reconocimiento público mediante conmemoraciones y lugares de memoria."
+    },
+    {
+      "id": "paper_003",
+      "title": "¿Cómo reparar? El impacto de las reparaciones y el tejido social en once comunidades andinas",
+      "authors": ["Elisabeth Bunselmeyer"],
+      "year": 2017,
+      "venue": "Memoria, Revista sobre Cultura, Democracia y Derechos Humanos, N°24",
+      "doi": "https://idehpucp.pucp.edu.pe/revista-memoria/edicion/revista-memoria-n24/",
+      "filename": "paper_003.pdf",
+      "topics": ["reparaciones", "PIR", "techo social", "comunidades andinas"],
+      "abstract": "Analiza el impacto de las políticas de reparación implementadas a través del Plan Integral de Reparaciones en once comunidades andinas y sus efectos en el tejido social y la inclusión."
+    },
+    {
+      "id": "paper_004",
+      "title": "Las políticas de reparación simbólica a las víctimas del conflicto armado interno: avances en el caso de Accomarca, Ayacucho",
+      "authors": ["Geraldine Yolanda Garrido Espíritu"],
+      "year": 2021,
+      "venue": "Revista de Sociología, Núm. 33",
+      "doi": "https://doi.org/10.15381/rsoc.n33.21800",
+      "filename": "paper_004.pdf",
+      "topics": ["reparación simbólica", "políticas públicas", "lugares de memoria", "Accomarca"],
+      "abstract": "Estudia el avance de las políticas de reparación simbólica en Accomarca, analizando los retos para el reconocimiento de víctimas y la construcción de lugares de memoria."
+    },
+    {
+      "id": "paper_005",
+      "title": "Cajones de la memoria. La historia reciente del Perú a través de los retablos andinos",
+      "authors": ["María Eugenia Ulfe"],
+      "year": 2011,
+      "venue": "Colección Estudios Andinos, PUCP (Fondo Editorial)",
+      "doi": "https://doi.org/10.18800/9789972429651",
+      "filename": "paper_005.pdf",
+      "topics": ["memoria histórica", "retablos", "arte popular", "Ayacucho"],
+      "abstract": "Estudio etnográfico sobre cómo los retablos andinos representan la historia reciente del Perú marcada por la violencia política, desplazamientos y demandas de justicia."
+    },
+    {
+      "id": "paper_006",
+      "title": "Los mecanismos de la memoria: Recordar la violencia en el Perú",
+      "authors": ["Margarita Saona"],
+      "year": 2017,
+      "venue": "PUCP (Fondo Editorial)",
+      "doi": "https://doi.org/10.18800/9786123172947",
+      "filename": "paper_006.pdf",
+      "topics": ["memoria colectiva", "mecanismos de memoria", "representación del trauma"],
+      "abstract": "Explora cómo se construye y activa la memoria colectiva en torno a la violencia política en el Perú, atendiendo a imágenes, memoriales y prácticas culturales."
+    },
+    {
+      "id": "paper_007",
+      "title": "Lugares de memoria en Perú: agencia y procesos sociales",
+      "authors": ["Iris Jave Pinedo", "Eduardo Renato Hurtado Sipión"],
+      "year": 2025,
+      "venue": "Perfiles Latinoamericanos, Vol. 33, Núm. 65",
+      "doi": "https://doi.org/10.18504/pl3365-010-2025",
+      "filename": "paper_007.pdf",
+      "topics": ["lugares de memoria", "memoria colectiva", "memoriales", "justicia transicional"],
+      "abstract": "Examina los procesos sociales detrás de la creación y sostenibilidad de lugares de memoria en el Perú posconflicto y los desafíos de apropiación social y sostenibilidad."
+    },
+    {
+      "id": "paper_008",
+      "title": "Cuestionando estereotipos: las presidentas de ANFASEP y sus espacios plurales de acción antes del conflicto armado interno",
+      "authors": ["Mercedes Crisóstomo Meza"],
+      "year": 2018,
+      "venue": "Capítulo en Género y conflicto armado interno en el Perú (PUCP)",
+      "doi": "ISBN: 978-612-317-375-3",
+      "filename": "paper_008.pdf",
+      "topics": ["ANFASEP", "género", "liderazgo femenino", "memoria"],
+      "abstract": "Analiza las trayectorias de las presidentas de ANFASEP antes del conflicto, cuestionando estereotipos y destacando su agencia política y memoria colectiva."
+    },
+    {
+      "id": "paper_009",
+      "title": "Memory of violence and drama in Peru: the experience of the Truth Commission and Grupo Cultural Yuyachkani – violence and dehumanization",
+      "authors": ["Salomón Lerner Febres"],
+      "year": 2020,
+      "venue": "International Journal of Transitional Justice, Vol. 14, No. 1",
+      "doi": "https://doi.org/10.1093/ijtj/ijz032",
+      "filename": "paper_009.pdf",
+      "topics": ["memory of violence", "theatre", "transitional justice", "cultural practices"],
+      "abstract": "The theater collective Grupo Cultural Yuyachkani contributed to transitional justice processes through performance, using symbols to reveal social tragedies rather than reproducing facts."
+    },
+    {
+      "id": "paper_010",
+      "title": "Desarrollo local desde la justicia transicional. Balance sobre la política de reparaciones colectivas en el Perú (2007–2017)",
+      "authors": ["Eduardo Hurtado"],
+      "year": 2021,
+      "venue": "Capítulo en La humillación y la urgencia (PUCP)",
+      "doi": "ISBN: 978-612-317-673-0",
+      "filename": "paper_010.pdf",
+      "topics": ["reparaciones colectivas", "desarrollo local", "justicia transicional"],
+      "abstract": "Analiza el impacto de las reparaciones colectivas en el desarrollo local y las limitaciones en la implementación de políticas públicas relacionadas con la reparación."
+    },
+    {
+      "id": "paper_011",
+      "title": "El recordar sucio: Estudio introductorio",
+      "authors": ["Francesca Denegri", "Alexandra Hibbett"],
+      "year": 2006,
+      "venue": "Capítulo en El recordar sucio (PUCP)",
+      "doi": "ISBN: 978-9972-42-786-2",
+      "filename": "paper_011.pdf",
+      "topics": ["memoria", "representación del pasado", "género"],
+      "abstract": "Propuesta crítica sobre la forma en que la sociedad peruana recuerda la violencia política, señalando tensiones, silencios y disputas simbólicas en la memoria colectiva."
+    },
+    {
+      "id": "paper_012",
+      "title": "Tejer alianzas frente y junto al Estado peruano del posconflicto: coalición prorreparaciones de las organizaciones de víctimas ayacuchanas",
+      "authors": ["María Rosa Alayza Mujica", "Gianfranco Silva Caillaux"],
+      "year": 2023,
+      "venue": "Revista de Estudios Sociales, No. 84",
+      "doi": "https://doi.org/10.7440/res84.2023.05",
+      "filename": "paper_012.pdf",
+      "topics": ["organizaciones de víctimas", "reparaciones", "memoria", "Ayacucho"],
+      "abstract": "Analiza la trayectoria política de las organizaciones de víctimas ayacuchanas y su capacidad para construir coaliciones prorreparaciones con actores diversos para promover políticas de reparación y memoria."
+    },
+    {
+      "id": "paper_013",
+      "title": "Luces y sombras de la justicia: el legado jurídico de la CVR en Perú",
+      "authors": ["Valeria Reyes"],
+      "year": 2023,
+      "venue": "Capítulo en Legados de un pasado irresuelto (IDEHPUCP)",
+      "doi": "https://doi.org/10.18800/9786124474477.005",
+      "filename": "paper_013.pdf",
+      "topics": ["justicia transicional", "CVR", "recomendaciones judiciales"],
+      "abstract": "Analiza el impacto jurídico de la CVR y la implementación (o falta) de sus recomendaciones de naturaleza judicial en el sistema de justicia peruano."
+    },
+    {
+      "id": "paper_014",
+      "title": "Truth and reparations: A perpetual challenge for the marginalized in Peru",
+      "authors": ["Nicole Coffey Kellett"],
+      "year": 2022,
+      "venue": "Journal of Latin American and Caribbean Anthropology, Vol. 27, No. 4",
+      "doi": "https://doi.org/10.1111/jlca.12642",
+      "filename": "paper_014.pdf",
+      "topics": ["truth commission", "reparations", "marginalization", "Ayacucho"],
+      "abstract": "Examina los desafíos de acceso a reparaciones y rendición de cuentas para las víctimas marginadas en Perú, ilustrado con un estudio de caso en Ayacucho."
+    },
+    {
+      "id": "paper_015",
+      "title": "“Nosotros, las víctimas”: violencia, justicia transicional y subjetividades políticas en el contexto peruano de recuperación posconflicto",
+      "authors": ["Laura Tejero Tabernero"],
+      "year": 2014,
+      "venue": "Papeles del CEIC, No. 106",
+      "doi": "https://dialnet.unirioja.es/servlet/articulo?codigo=4740753",
+      "filename": "paper_015.pdf",
+      "topics": ["víctimas", "subjetividades políticas", "justicia transicional"],
+      "abstract": "Analiza la construcción de la categoría ‘víctima’ en el Perú posconflicto y su articulación con demandas de reconocimiento, justicia y ciudadanía."
+    },
+    {
+      "id": "paper_016",
+      "title": "From Victims to Beneficiaries: Shaping Postconflict Subjects through State Reparations in Peru",
+      "authors": ["Iván Ramírez Zapata", "Rogelio Scott-Insúa"],
+      "year": 2019,
+      "venue": "Latin American Perspectives, Vol. 46, No. 5",
+      "doi": "https://doi.org/10.1177/0094582X19861097",
+      "filename": "paper_016.pdf",
+      "topics": ["state reparations", "victims", "poverty", "displacement"],
+      "abstract": "Analiza cómo las coordenadas políticas e institucionales que definen a las víctimas influyen en su reconocimiento como beneficiarios de reparaciones y los efectos de esas clasificaciones."
+    },
+    {
+      "id": "paper_017",
+      "title": "Reclaiming Justice from Below: Victim Participation and Reparations in Post-Conflict Peru",
+      "authors": ["Fiorella P. Vera-Adrianzén"],
+      "year": 2022,
+      "venue": "Doctoral Dissertation, University of Washington",
+      "doi": "",
+      "filename": "paper_017.pdf",
+      "topics": ["participación de víctimas", "reparaciones", "movilización colectiva"],
+      "abstract": "Tesis doctoral que examina experiencias cotidianas de justicia y participación de víctimas en la implementación del PIR en regiones andinas, resaltando estrategias locales de incidencia."
+    },
+    {
+      "id": "paper_018",
+      "title": "A feminist reading of sites of commemoration in Peru",
+      "authors": ["Jelke Boesten"],
+      "year": 2021,
+      "venue": "Capítulo en Gender, Transitional Justice and Memorial Arts (Routledge)",
+      "doi": "https://doi.org/10.4324/9781003133459",
+      "filename": "paper_018.pdf",
+      "topics": ["feminismo", "sitios de conmemoración", "violencia sexual", "memoria"],
+      "abstract": "Lectura feminista de sitios de conmemoración en Perú, analizando museos de memoria, memoriales y la representación de la violencia sexual en la memoria pública."
+    },
+    {
+      "id": "paper_019",
+      "title": "Truth, Reparations and Social Cohesion: Transitional Justice Lessons from Peru",
+      "authors": ["Elisabeth Bunselmeyer"],
+      "year": 2020,
+      "venue": "Routledge (Libro)",
+      "doi": "https://doi.org/10.4324/9780429277921",
+      "filename": "paper_019.pdf",
+      "topics": ["justicia transicional", "reparaciones colectivas", "cohesión social"],
+      "abstract": "Libro que evalúa si las políticas de verdad y reparaciones han contribuido a la cohesión social en Perú, y las condiciones para su efecto transformador."
+    },
+    {
+      "id": "paper_020",
+      "title": "Imposturas antropológicas y puntos de fuga: dilemas éticos, políticos y epistemológicos de una investigación en torno a la justicia transicional en el Perú",
+      "authors": ["Laura Tejero Tabernero"],
+      "year": 2022,
+      "venue": "Revista de Antropología Social, Vol. 31 No. 2",
+      "doi": "https://doi.org/10.5209/raso.83945",
+      "filename": "paper_020.pdf",
+      "topics": ["justicia transicional", "etnografía", "ética de investigación"],
+      "abstract": "Revisión crítica sobre dilemas éticos, políticos y epistemológicos en la investigación etnográfica sobre justicia transicional y la producción de conocimiento sobre víctimas."
+    }
+  ]
+}

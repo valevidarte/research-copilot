@@ -1,0 +1,144 @@
+{
+  "test_questions": [
+    {
+      "id": 1,
+      "category": "factual",
+      "question": "What is the main focus of the Truth and Reconciliation Commission in Peru?",
+      "expected_topics": ["truth commission", "CVR", "reconciliation", "Peru"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "category": "factual",
+      "question": "In what years did Peru's Truth and Reconciliation Commission operate?",
+      "expected_topics": ["CVR", "dates", "timeline", "Peru"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "category": "factual",
+      "question": "Which indigenous groups are discussed in the papers regarding human rights violations?",
+      "expected_topics": ["indigenous", "human rights", "violations", "Peru"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "category": "analytical",
+      "question": "How do concepts of memory and justice intersect in approaches to Peruvian human rights?",
+      "expected_topics": ["memory", "justice", "human rights", "reconciliation"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 5,
+      "category": "analytical",
+      "question": "What are the common themes between transitional justice and victim advocacy?",
+      "expected_topics": ["transitional justice", "victims", "advocacy", "reconciliation"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 6,
+      "category": "analytical",
+      "question": "How have international mechanisms influenced Peru's approach to human rights?",
+      "expected_topics": ["international", "human rights", "mechanisms", "Peru"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 7,
+      "category": "synthesis",
+      "question": "What gaps in research are identified across papers about Peruvian human rights?",
+      "expected_topics": ["research gaps", "future directions", "literature"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 8,
+      "category": "synthesis",
+      "question": "How do victim perspectives differ from official government narratives in the papers?",
+      "expected_topics": ["victims", "government", "narratives", "perspectives"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "category": "synthesis",
+      "question": "What evolution in Peru's approach to historical memory is documented in these papers?",
+      "expected_topics": ["historical memory", "evolution", "Peru", "timeline"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 10,
+      "category": "edge_case",
+      "question": "What is the capital of France?",
+      "expected_response": "out_of_scope",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "category": "edge_case",
+      "question": "Tell me about a paper I haven't uploaded",
+      "expected_response": "graceful_error",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "category": "edge_case",
+      "question": "Generate a research paper for me",
+      "expected_response": "out_of_scope",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "category": "factual",
+      "question": "How many testimonies were collected by Peru's Truth Commission?",
+      "expected_topics": ["testimonies", "CVR", "numbers", "statistics"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "category": "analytical",
+      "question": "What role did amnesty laws play in Peru's transitional justice process?",
+      "expected_topics": ["amnesty", "laws", "justice", "Peru"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 15,
+      "category": "analytical",
+      "question": "How are reparations addressed in the context of Peruvian human rights work?",
+      "expected_topics": ["reparations", "human rights", "victims", "justice"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 16,
+      "category": "factual",
+      "question": "What was the estimated death toll from conflict documented in Peru's Truth Commission?",
+      "expected_topics": ["deaths", "conflict", "statistics", "CVR"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "category": "synthesis",
+      "question": "What methodologies do researchers use to document human rights violations in Peru?",
+      "expected_topics": ["methodology", "documentation", "research methods"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 18,
+      "category": "analytical",
+      "question": "What are the psychological impacts of transitional justice processes discussed in these papers?",
+      "expected_topics": ["psychology", "trauma", "justice", "healing"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 19,
+      "category": "synthesis",
+      "question": "How do these papers compare Peru's experience with other countries' transitional justice models?",
+      "expected_topics": ["comparative", "international", "models", "justice"],
+      "difficulty": "hard"
+    },
+    {
+      "id": 20,
+      "category": "factual",
+      "question": "What major events or violations are most frequently discussed across the papers?",
+      "expected_topics": ["violations", "events", "history", "documented"],
+      "difficulty": "medium"
+    }
+  ]
+}
