@@ -1,12 +1,42 @@
 # Research Copilot: Academic Paper Assistant
 
-## Project Title and Description
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**Research Copilot** is an AI-powered conversational assistant that helps researchers, students, and professionals interact with academic literature on **memory and human rights in Peru**. The system uses Retrieval-Augmented Generation (RAG) to answer complex questions about a collection of academic papers, providing accurate citations and maintaining conversation context.
+Research Copilot is an AI research assistant that helps you explore a curated collection of academic papers about memory, transitional justice, and human rights in Peru. It uses a Retrieval-Augmented Generation (RAG) pipeline (PDF ingestion → chunking → OpenAI embeddings → vector search → response generation) and a Streamlit web UI for interactive querying and citation-aware answers.
 
-### Topic Focus
+Quick Start
+-----------
+- Clone the repo, create a virtual environment and install dependencies:
 
-This project focuses on peer-reviewed research on memory, transitional justice, human rights violations, reconciliation processes, and historical documentation in Peru. The corpus includes seminal works on Peru's Truth and Reconciliation Commission (CVR), indigenous perspectives, victim advocacy, and ongoing justice mechanisms.
+```bash
+git clone https://github.com/valevidarte/research-copilot.git
+cd research-copilot
+python -m venv .venv
+.venv\Scripts\activate    # Windows PowerShell
+pip install -r requirements.txt
+```
+
+- Configure your OpenAI API key (create `.env` or set `OPENAI_API_KEY` env var):
+
+```bash
+copy .env.example .env
+# edit .env and add OPENAI_API_KEY=sk-...
+```
+
+- Ingest papers (after placing PDFs in `papers/` and updating `papers/paper_catalog.json`):
+
+```bash
+python src/ingest.py
+```
+
+- Run the Streamlit app:
+
+```bash
+.venv\Scripts\python -m streamlit run app/main.py
+```
+
+Visit: http://localhost:8501
 
 ---
 
