@@ -1,42 +1,49 @@
-# Research Copilot: Academic Paper Assistant
+# 📚 Research Copilot: Academic Paper Assistant
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.28%2B-red)](https://streamlit.io/)
+[![RAG Pipeline](https://img.shields.io/badge/RAG-Enabled-success)](src/rag_pipeline.py)
 
-Research Copilot is an AI research assistant that helps you explore a curated collection of academic papers about memory, transitional justice, and human rights in Peru. It uses a Retrieval-Augmented Generation (RAG) pipeline (PDF ingestion → chunking → OpenAI embeddings → vector search → response generation) and a Streamlit web UI for interactive querying and citation-aware answers.
+**Research Copilot** is an AI-powered academic research assistant that helps explore a curated collection of papers about memory, transitional justice, and human rights in Peru. It combines a Retrieval-Augmented Generation (RAG) pipeline with an interactive Streamlit interface for intelligent paper discovery and citation-aware answers.
 
-Quick Start
------------
-- Clone the repo, create a virtual environment and install dependencies:
+## 🚀 Quick Start (5 minutes)
 
-```bash
+### Windows (PowerShell)
+```powershell
+# Clone and setup
 git clone https://github.com/valevidarte/research-copilot.git
 cd research-copilot
 python -m venv .venv
-.venv\Scripts\activate    # Windows PowerShell
+.venv\Scripts\activate
+
+# Install and configure
 pip install -r requirements.txt
-```
-
-- Configure your OpenAI API key (create `.env` or set `OPENAI_API_KEY` env var):
-
-```bash
 copy .env.example .env
-# edit .env and add OPENAI_API_KEY=sk-...
+# Edit .env and add your OpenAI API key
+
+# Run (all-in-one)
+.\setup.bat
 ```
 
-- Ingest papers (after placing PDFs in `papers/` and updating `papers/paper_catalog.json`):
-
+### macOS/Linux (Bash)
 ```bash
-python src/ingest.py
+# Clone and setup
+git clone https://github.com/valevidarte/research-copilot.git
+cd research-copilot
+python3 -m venv venv
+source venv/bin/activate
+
+# Install and configure
+pip install -r requirements.txt
+cp .env.example .env
+# Edit .env and add your OpenAI API key
+
+# Run (all-in-one)
+bash setup.sh
 ```
 
-- Run the Streamlit app:
-
-```bash
-.venv\Scripts\python -m streamlit run app/main.py
-```
-
-Visit: http://localhost:8501
+Navigate to: **http://localhost:8501**
 
 ---
 
@@ -193,35 +200,317 @@ Local URL: http://localhost:8501
 
 ---
 
-## Usage
+## 📖 Full Installation & Usage Guide
+
+### Prerequisites
+- Python 3.10 or higher
+- pip package manager
+- OpenAI API key (free trial available)
+- 2GB free disk space
+
+### Step-by-Step Setup
+
+#### 1. Clone Repository
+```bash
+git clone https://github.com/valevidarte/research-copilot.git
+cd research-copilot
+```
+
+#### 2. Create Virtual Environment
+**Windows:**
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**macOS/Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Configure Environment
+```bash
+# Copy example configuration
+cp .env.example .env
+
+# Edit .env and add your OpenAI API key
+# OPENAI_API_KEY=sk-your-key-here
+```
+
+#### 5. Prepare Papers
+1. Place 20 PDF files in `papers/` directory
+2. Update `papers/paper_catalog.json` with metadata
+
+#### 6. Ingest Papers (One-Time)
+```bash
+python src/ingest.py
+```
 
 ### Running the Application
 
-```bash
-streamlit run app/main.py
+**Windows:**
+```powershell
+.\setup.bat
 ```
 
-Visit `http://localhost:8501` in your browser.
+**macOS/Linux:**
+```bash
+bash setup.sh
+```
 
-### Example Queries
+**Manual:**
+```bash
+streamlit run streamlit_app.py
+```
 
-#### Simple Factual Questions
-- "What is the main focus of the Truth and Reconciliation Commission in Peru?"
-- "Which papers discuss indigenous testimonies in Peru?"
-- "What years are covered in the research on Peruvian human rights?"
-
-#### Complex Analytical Questions
-- "How do the concepts of memory and justice intersect in the papers?"
-- "What are the common themes between transitional justice and human rights advocacy?"
-- "How has Peru's approach to historical memory evolved according to the research?"
-
-#### Synthesis Questions
-- "What gaps in research are identified across these papers about Peruvian human rights?"
-- "How do victim perspectives differ from official government narratives in the papers?"
+Visit: **http://localhost:8501**
 
 ---
 
-## Technical Details
+## 🏗️ Project Structure
+
+```
+research-copilot/
+├── src/                       # Core RAG pipeline
+│   ├── rag_pipeline.py       # Main orchestrator
+│   ├── ingestion/            # PDF processing
+│   │   ├── pdf_extractor.py
+│   │   └── text_cleaner.py
+│   ├── chunking/             # Text chunking
+│   │   └── chunker.py
+│   ├── embedding/            # Vector generation
+│   │   └── embedder.py
+│   ├── retrieval/            # Document retrieval
+│   │   └── retriever.py
+│   ├── generation/           # Response generation
+│   │   └── generator.py
+│   ├── vectorstore/          # Vector database
+│   │   ├── chroma_store.py
+│   │   └── faiss_store.py
+│   └── ingest.py            # Paper ingestion script
+│
+├── streamlit_app.py          # Web UI (main entry point)
+├── prompts/                  # Prompt templates
+│   └── templates.py
+├── papers/                   # Academic papers (PDFs)
+│   ├── paper_*.pdf
+│   └── paper_catalog.json
+├── eval/                     # Evaluation scripts
+│   └── evaluate.py
+├── tests/                    # Unit tests
+├── requirements.txt          # Python dependencies
+├── setup.bat                 # Windows automated setup
+├── setup.sh                  # Unix automated setup
+├── .env.example              # Environment template
+└── README.md                 # This file
+```
+
+---
+
+## 🧪 Testing & Evaluation
+
+### Run Evaluation Script
+```bash
+# View test questions and statistics
+python eval/evaluate.py
+
+# Run actual queries and generate report
+python eval/evaluate.py --run-queries
+```
+
+### Run Unit Tests
+```bash
+pytest tests/ -v
+```
+
+---
+
+## 🔧 Development
+
+### Code Quality
+- **Linting:** Follow PEP 8 guidelines
+- **Type hints:** All functions should have type annotations
+- **Docstrings:** Use Google-style docstrings
+- **Tests:** Include unit tests for new features
+
+### Adding New Features
+1. Create feature branch: `git checkout -b feature/my-feature`
+2. Write tests first
+3. Implement feature
+4. Run tests: `pytest tests/`
+5. Submit pull request
+
+### Modifying Prompt Strategies
+Edit `prompts/templates.py` to add new prompt strategies:
+
+```python
+def get_prompt(strategy: str) -> str:
+    """Get prompt template by strategy."""
+    if strategy == "v5_custom":
+        return """Your custom prompt here..."""
+```
+
+---
+
+## 🚨 Troubleshooting
+
+### "ModuleNotFoundError: No module named 'src'"
+**Solution:** Ensure you're running from the project root directory:
+```bash
+cd research-copilot
+python src/ingest.py
+```
+
+### "OpenAI API key not found"
+**Solution:** Check your `.env` file:
+```bash
+# .env must contain:
+OPENAI_API_KEY=sk-your-actual-key-here
+```
+
+### "PDFPlumber extraction failed"
+**Solution:** Ensure PDFs are readable:
+```python
+#Test with a simple script
+from src.ingestion.pdf_extractor import PDFExtractor
+extractor = PDFExtractor()
+text = extractor.extract_text("path/to/pdf.pdf")
+print(len(text))  # Should be > 0
+```
+
+### "ChromaDB not available" warning
+**Solution:** This is normal, uses in-memory fallback (works fine for development)
+
+### Slow response times
+**Solution:**
+- Reduce `n_results` in streamlit_app.py (default: 5)
+- Use quicker model: `gpt-3.5-turbo` instead of `gpt-4-turbo`
+- Check internet connection (API calls are rate-limited)
+
+---
+
+## 📊 Performance Metrics
+
+### Typical Latency
+| Operation | Time | Note |
+|-----------|------|------|
+| PDF Ingestion (per page avg) | 2-5 seconds | Includes extraction, chunking, embedding |
+| Query Embedding | 0.5 seconds | OpenAI API call |
+| Vector Search | 0.1 seconds | ChromaDB lookup |
+| Response Generation | 5-15 seconds | GPT-4 API call, depends on complexity |
+| **Total (Query→Answer)** | **6-16 seconds** | Includes all steps above |
+
+### Cost Estimation
+```
+Monthly Usage (assuming 100 queries/day):
+- Embeddings: 100 queries × 2k tokens × $0.02/1M = $0.004/month
+- Responses: 100 queries × 1k tokens × $0.03/1k (GPT-4) = $3/month
+- Total: ~$3-5/month (very affordable)
+```
+
+---
+
+## 📝 API Documentation
+
+### RAGPipeline Class
+
+#### `query(question: str, strategy: str) → Tuple[str, List[Dict]]`
+Query the RAG pipeline.
+```python
+from src.rag_pipeline import RAGPipeline
+
+pipeline = RAGPipeline()
+answer, citations = pipeline.query("What is transitional justice?")
+```
+
+#### `ingest_paper(pdf_path: str, paper_id: str, metadata: Dict) → bool`
+Ingest a single PDF paper.
+```python
+metadata = {
+    "title": "Sample Paper",
+    "authors": "John Doe",
+    "year": "2023",
+    "topics": "memory, justice"
+}
+success = pipeline.ingest_paper("papers/sample.pdf", "paper_001", metadata)
+```
+
+#### `get_papers_info() → Dict`
+Get vector store statistics.
+```python
+info = pipeline.get_papers_info()
+print(f"Documents indexed: {info['documents_count']}")
+```
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Valevidarte**  
+GitHub: [@valevidarte](https://github.com/valevidarte)
+
+---
+
+## 📚 References
+
+### Documentation
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
+- [ChromaDB Documentation](https://docs.trychroma.com/)
+- [LangChain Documentation](https://js.langchain.com/docs)
+
+### Research
+- [RAG: Retrieval Augmented Generation](https://arxiv.org/abs/2005.11401)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [Vector Embeddings](https://huggingface.co/blog/embeddings)
+
+---
+
+## 🐛 Reporting Issues
+
+Found a bug? Please open an issue on [GitHub Issues](https://github.com/valevidarte/research-copilot/issues) with:
+- Description of the bug
+- Steps to reproduce
+- Expected vs actual behavior
+- System information (OS, Python version)
+
+---
+
+## 📞 Support
+
+For questions and support:
+1. Check existing issues
+2. Review troubleshooting section
+3. Open a new issue with `[QUESTION]` prefix
+
+---
+
+**Last Updated:** March 4, 2026  
+**Version:** 1.0.0
+
+---
 
 ### Paper Collection Specifications
 
