@@ -7,6 +7,8 @@
 
 **Research Copilot** is an AI-powered academic research assistant that helps explore a curated collection of papers about memory, transitional justice, and human rights in Peru. It combines a Retrieval-Augmented Generation (RAG) pipeline with an interactive Streamlit interface for intelligent paper discovery and citation-aware answers.
 
+Video: https://www.youtube.com/watch?v=zs9-D_Qq2XU
+
 ## 🚀 Quick Start (5 minutes)
 
 ### Windows (PowerShell)
